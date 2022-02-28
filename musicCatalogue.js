@@ -119,7 +119,7 @@ function displayMusicSession() {
       console.log(musicArraySession[music]);
       delete musicArraySession[music];
 
-      //   rowSession.removeChild(pararaph).removeChild(buttonDelete);
+      rowSession.removeChild(pararaph).removeChild(buttonDelete);
     };
 
     rowSession.appendChild(pararaph).appendChild(buttonDelete);
